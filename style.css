@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@200&display=swap');
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Roboto', sans-serif;
+}
+.container{
+  height: 100vh;
+  width: 100vw;
+  text-align: center;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+}
+.input-box{
+  margin: 10px;
+  display: grid;
+  grid-template-columns: 200px 150px 100px;
+  column-gap: 10px;
+  row-gap: 10px;
+  
+}
+.show-box{
+  margin: 10px;
+  display: grid;
+  grid-template-columns: 200px 150px 100px;
+  column-gap: 10px;
+  row-gap: 10px;
+  
+  
+}
+#input-text{
+  padding: 10px 5px;
+  font-size: 1rem;
+  
+}
+#input-date{
+  padding: 9px 5px;
+  font-size: 1rem;
+
+
+}
+.add-btn{
+  height: 45px;
+  padding: 10px;
+  font-size: 1rem;
+  border: none;
+  background-color: green;
+  border-radius: 5px;
+  cursor: pointer;
+}
+span{
+  font-size: 1.2rem;
+  display: flex;
+  align-items: center;
+  text-align: justify;
+  cursor: pointer;
+}
+.date-span{
+  height: 45px;
+  display: flex;
+  align-items: center;
+  
+}
+.delete-btn{
+  height: 45px;
+  padding: 10px;
+  font-size: 1rem;
+  border: none;
+  background-color: rgb(173, 9, 9);
+  border-radius: 5px;
+  cursor: pointer;
+
+}
+.done{
+  text-decoration: line-through;
+  color: red;
+}
